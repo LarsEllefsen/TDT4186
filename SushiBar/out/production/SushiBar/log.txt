@@ -1,0 +1,129 @@
+19:07:58:194, Entrance 1: Customer1is now waiting.
+19:07:58:236, Waitress 1: Customer1is now fetched
+19:07:58:294, Waitress 1: Customer1is now eating.
+19:07:58:812, Entrance 1: Customer2is now waiting.
+19:07:58:818, Waitress 2: Customer2is now fetched
+19:07:58:873, Waitress 2: Customer2is now eating.
+19:08:01:636, Entrance 1: Customer3is now waiting.
+19:08:03:373, Entrance 1: Customer4is now waiting.
+19:08:29:842, Entrance 1: Customer1is now waiting.
+19:08:29:873, Waitress 2: Customer1 is now fetched
+19:08:29:930, Waitress 2: Customer1 is now eating.
+19:08:31:370, Entrance 1: Customer2is now waiting.
+19:08:31:376, Waitress 1: Customer2 is now fetched
+19:08:31:430, Waitress 1: Customer2 is now eating.
+19:08:32:567, Entrance 1: Customer3is now waiting.
+19:08:34:435, Waitress 1: Customer2 is now leaving.
+19:08:34:441, Waitress 1: Customer3 is now fetched
+19:08:34:496, Waitress 1: Customer3 is now eating.
+19:08:34:763, Entrance 1: Customer4is now waiting.
+19:08:42:534, Entrance 1: Customer1 is now waiting.
+19:08:42:569, Waitress 1: Customer1 is now fetched
+19:08:42:625, Waitress 1: Customer1 is now eating.
+19:08:43:392, Entrance 1: Customer2 is now waiting.
+19:08:43:397, Waitress 2: Customer2 is now fetched
+19:08:43:451, Waitress 2: Customer2 is now eating.
+19:08:45:734, Entrance 1: Customer3 is now waiting.
+19:08:46:363, Entrance 1: Customer4 is now waiting.
+19:08:47:05, Entrance 1: Customer5 is now waiting.
+19:08:49:316, Entrance 1: Customer6 is now waiting.
+19:08:51:70, Entrance 1: Customer7 is now waiting.
+19:09:04:471, Entrance 1: Customer1 is now waiting.
+19:09:04:505, Waitress 1: Customer1 is now fetched
+19:09:04:561, Waitress 1: Customer1 is now eating.
+19:09:05:146, Entrance 1: Customer2 is now waiting.
+19:09:05:152, Waitress 2: Customer2 is now fetched
+19:09:05:209, Waitress 2: Customer2 is now eating.
+19:09:06:788, Entrance 1: Customer3 is now waiting.
+19:09:07:202, Entrance 1: Customer4 is now waiting.
+19:09:09:973, Entrance 1: Customer5 is now waiting.
+19:09:12:594, Entrance 1: Customer6 is now waiting.
+19:09:14:665, Entrance 1: Customer7 is now waiting.
+19:09:15:378, Entrance 1: Customer8 is now waiting.
+19:09:17:319, Entrance 1: Customer9 is now waiting.
+19:09:19:710, Entrance 1: Customer10 is now waiting.
+19:09:21:521, Entrance 1: Customer11 is now waiting.
+19:09:22:179, Entrance 1: Customer12 is now waiting.
+19:09:24:476, Entrance 1: Customer13 is now waiting.
+19:09:25:180, Entrance 1: Customer14 is now waiting.
+19:09:27:896, Entrance 1: Customer15 is now waiting.
+19:09:28:567, Waitress 1: Customer1 is now leaving.
+19:09:28:572, Waitress 1: Customer3 is now fetched
+19:09:28:623, Waitress 1: Customer3 is now eating.
+19:09:29:215, Waitress 2: Customer2 is now leaving.
+19:09:29:220, Waitress 2: Customer4 is now fetched
+19:09:29:275, Waitress 2: Customer4 is now eating.
+19:09:29:993, Entrance 1: Customer16 is now waiting.
+19:09:31:50, Entrance 1: Customer17 is now waiting.
+19:09:32:32, Entrance 1: Customer18 is now waiting.
+19:09:34:365, Entrance 1: Customer19 is now waiting.
+19:09:36:555, Entrance 1: Customer20 is now waiting.
+19:09:37:628, Waitress 1: Customer3 is now leaving.
+19:09:37:633, Waitress 1: Customer5 is now fetched
+19:09:37:702, Waitress 1: Customer5 is now eating.
+19:09:39:526, Entrance 1: Customer21 is now waiting.
+19:09:42:381, Entrance 1: Customer22 is now waiting.
+19:09:44:553, Entrance 1: Customer23 is now waiting.
+19:09:45:891, Entrance 1: Customer24 is now waiting.
+19:09:47:748, Entrance 1: Customer25 is now waiting.
+19:09:50:280, Waitress 2: Customer4 is now leaving.
+19:09:50:285, Waitress 2: Customer6 is now fetched
+19:09:50:291, Entrance 1: Customer26 is now waiting.
+19:09:50:340, Waitress 2: Customer6 is now eating.
+19:09:52:708, Waitress 1: Customer5 is now leaving.
+19:09:52:713, Waitress 1: Customer7 is now fetched
+19:09:52:719, Entrance 1: Customer27 is now waiting.
+19:09:52:768, Waitress 1: Customer7 is now eating.
+19:09:53:346, Waitress 2: Customer6 is now leaving.
+19:09:53:351, Waitress 2: Customer8 is now fetched
+19:09:53:406, Waitress 2: Customer8 is now eating.
+19:09:55:234, Entrance 1: Customer28 is now waiting.
+19:10:08:412, Waitress 2: Customer8 is now leaving.
+19:10:08:417, Waitress 2: Customer9 is now fetched
+19:10:08:422, Entrance 1: Customer29 is now waiting.
+19:10:08:472, Waitress 2: Customer9 is now eating.
+19:10:10:774, Waitress 1: Customer7 is now leaving.
+19:10:10:779, Waitress 1: Customer10 is now fetched
+19:10:10:784, Entrance 1: Customer30 is now waiting.
+19:10:10:834, Waitress 1: Customer10 is now eating.
+19:15:10:111, Entrance 1: Customer1 is now waiting.
+19:15:10:157, Waitress 0: Customer1 is now fetched
+19:15:10:215, Waitress 0: Customer1 is now eating.
+19:15:11:36, Entrance 1: Customer2 is now waiting.
+19:15:11:46, Waitress 2: Customer2 is now fetched
+19:15:11:105, Waitress 2: Customer2 is now eating.
+19:15:13:390, Entrance 1: Customer3 is now waiting.
+19:15:13:395, Waitress 5: Customer3 is now fetched
+19:15:13:451, Waitress 5: Customer3 is now eating.
+19:15:14:768, Entrance 1: Customer4 is now waiting.
+19:15:14:773, Waitress 6: Customer4 is now fetched
+19:15:14:829, Waitress 6: Customer4 is now eating.
+19:15:15:221, Entrance 1: Customer5 is now waiting.
+19:15:15:226, Waitress 8: Customer5 is now fetched
+19:15:15:282, Waitress 8: Customer5 is now eating.
+19:15:15:698, Entrance 1: Customer6 is now waiting.
+19:15:15:704, Waitress 1: Customer6 is now fetched
+19:15:15:759, Waitress 1: Customer6 is now eating.
+19:15:16:457, Waitress 5: Customer3 is now leaving.
+19:15:18:287, Waitress 8: Customer5 is now leaving.
+19:15:18:411, Entrance 1: Customer7 is now waiting.
+19:15:18:417, Waitress 4: Customer7 is now fetched
+19:15:18:472, Waitress 4: Customer7 is now eating.
+19:15:19:221, Waitress 0: Customer1 is now leaving.
+19:15:19:743, Entrance 1: Customer8 is now waiting.
+19:15:19:748, Waitress 9: Customer8 is now fetched
+19:15:19:803, Waitress 9: Customer8 is now eating.
+19:15:20:834, Waitress 6: Customer4 is now leaving.
+19:15:21:478, Waitress 4: Customer7 is now leaving.
+19:15:22:678, Entrance 1: Customer9 is now waiting.
+19:15:22:684, Waitress 5: Customer9 is now fetched
+19:15:22:739, Waitress 5: Customer9 is now eating.
+19:15:23:574, Entrance 1: Customer10 is now waiting.
+19:15:23:579, Waitress 7: Customer10 is now fetched
+19:15:23:634, Waitress 7: Customer10 is now eating.
+19:15:23:814, Entrance 1: Customer11 is now waiting.
+19:15:23:820, Waitress 3: Customer11 is now fetched
+19:15:23:874, Waitress 3: Customer11 is now eating.
+19:15:25:857, Entrance 1: Customer12 is now waiting.
+19:15:25:863, Waitress 4: Customer12 is now fetched
+19:15:25:919, Waitress 4: Customer12 is now eating.

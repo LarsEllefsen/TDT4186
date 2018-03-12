@@ -33,12 +33,14 @@ public class Door implements Runnable {
             try {
                 //Creates a new customer in the interval between doorWait and 3000ms.
                 Thread.sleep(ThreadLocalRandom.current().nextInt(SushiBar.doorWait, 3000));
-                customerQueue.enter(new Customer());
+                if (SushiBar.isOpen){
+                    customerQueue.enter(new Customer());
+                }
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-
         }
+        System.out.println("IM DONE");
     }
 
 

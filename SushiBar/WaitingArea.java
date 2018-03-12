@@ -29,12 +29,16 @@ public class WaitingArea {
     public synchronized void enter(Customer customer) throws InterruptedException{
         // TODO Implement required functionality
         //If the queue is full, wait();
+        if(!SushiBar.isOpen){
+            System.out.println("Im waking errone up");
+            notifyAll();
+        }
         while(list.size() == WaitingAreaSize){
             this.wait();
         }
         this.list.add(customer);
         SushiBar.write(Thread.currentThread().getName() + ": Customer" + customer.getCustomerID() + " is now waiting.");
-        this.notify();
+        this.notifyAll();
     }
 
     /**

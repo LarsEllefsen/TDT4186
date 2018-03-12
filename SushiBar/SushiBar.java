@@ -8,12 +8,12 @@ import java.util.Set;
 public class SushiBar {
 
     //SushiBar settings
-    private static int waitingAreaCapacity = 20;
-    private static int waitressCount = 2;
-    private static int duration = 3;
+    private static int waitingAreaCapacity = 5;
+    private static int waitressCount = 10;
+    private static int duration = 10;
     public static int maxOrder = 10;
     public static int waitressWait = 50; // Used to calculat the time the waitress spends before taking the order
-    public static int customerWait = 300; // Used to calculate the time the customer uses eating
+    public static int customerWait = 3000; // Used to calculate the time the customer uses eating
     public static int doorWait = 100; // Used to calculate the interval at which the door tries to create a customer
     public static boolean isOpen = true;
     private static int doorCount = 1;
@@ -38,7 +38,7 @@ public class SushiBar {
         servedOrders = new SynchronizedInteger(0);
         takeawayOrders = new SynchronizedInteger(0);
 
-        Clock clock = new Clock(10);
+        Clock clock = new Clock(duration);
 
         //Create the waiting area (the shared buffer)
         WaitingArea waitingArea = new WaitingArea(waitingAreaCapacity);
@@ -58,7 +58,7 @@ public class SushiBar {
         }
 
         try{
-            mainHook(waitresses,doors);
+            mainHook(waitresses,doors,waitingArea);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -72,7 +72,7 @@ public class SushiBar {
         // TODO initialize the bar and start the different threads
     }
 
-    private static void mainHook(Thread[] waitresses, Thread[] doors) throws InterruptedException{
+    private static void mainHook(Thread[] waitresses, Thread[] doors, WaitingArea waitingArea) throws InterruptedException{
         for (Thread t: waitresses){
             t.join();
         }

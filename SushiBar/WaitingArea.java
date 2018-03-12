@@ -47,8 +47,11 @@ public class WaitingArea {
     public synchronized Customer next() throws InterruptedException{
         // TODO Implement required functionality
         //While the queue is empty, wait();
-        while (list.size() == 0){
+        while (list.size() == 0 && SushiBar.isOpen == true){
             this.wait();
+        }
+        if (SushiBar.isOpen == false){
+            return null;
         }
         Customer customer = list.pop();
         this.notify();
@@ -57,8 +60,8 @@ public class WaitingArea {
         }
 
 
-    public int getQueueSize() {
-        return list.size();
+    public synchronized void releaseLocks() {
+        this.notifyAll();
     }
     // Add more methods as you see fit
 

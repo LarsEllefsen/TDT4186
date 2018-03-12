@@ -48,7 +48,7 @@ public class Waitress implements Runnable {
             }
         }
         customerQueue.releaseLocks();
-        System.out.println(Thread.currentThread().getName() + " is done");
+        //System.out.println(Thread.currentThread().getName() + " is done");
 
     }
 

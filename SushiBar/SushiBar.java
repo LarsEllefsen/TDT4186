@@ -63,11 +63,6 @@ public class SushiBar {
             e.printStackTrace();
         }
 
-        //try{
-          //  debug(t1,t2,t3);
-        //} catch(InterruptedException e){
-          //  System.out.println(e);
-        //}wa
 
         // TODO initialize the bar and start the different threads
     }
@@ -83,21 +78,8 @@ public class SushiBar {
         System.out.println("Total Number of orders: " + totalOrders.get());
         System.out.println("Total Number of takeaway orders: " + takeawayOrders.get());
         System.out.println("Total Number of orders eaten here: " + servedOrders.get());
-        Set<Thread> threads = Thread.getAllStackTraces().keySet();
-        for (Thread t : threads) {
-            System.out.println(t.getName() + " " + t.getState());
-        }
     }
 
-    public static void debug(Thread t1, Thread t2, Thread t3) throws InterruptedException{
-        while (true) {
-            System.out.println("Current state for the entrance is " + t1.getState());
-            System.out.println("Current state for the waitress 1 is " + t2.getState());
-            System.out.println("Current state for the waitress 2 is " + t3.getState());
-            Thread.sleep(3000);
-        }
-
-    }
 
     //Writes actions in the log file and console
     public static void write(String str) {

@@ -40,7 +40,6 @@ public class Door implements Runnable {
                 e.printStackTrace();
             }
         }
-        System.out.println("IM DONE");
     }
 
 
